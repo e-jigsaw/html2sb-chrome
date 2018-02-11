@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "html2sb-chrome",
+  "description": "html2sb for Google Chrome",
+  "version": "0.0.1",
+  "author": "Takaya Kobayashi (https://kbys.tk/y)",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "html2sb"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
+}

@@ -1,12 +1,15 @@
 {
+  "private": true,
   "name": "html2sb-chrome",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "html2sb for Google Chrome",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack -w --mode development",
+    "build": "webpack --mode production"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "@jigsaw/html2sb-compiler": "^1.0.5",
+    "webpack": "^4.0.0-beta.1",
+    "webpack-cli": "^2.0.4"
+  }
 }
